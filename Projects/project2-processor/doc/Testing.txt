@@ -1,0 +1,135 @@
+
+Input: Show me all information for (wendys/restaurant brands international).
+
+Output to file and console:
+
+File found!
+I understand, here is info on all information: 
+(The whole (Wendys/restaurant international 10-k)
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: item (number) for (wendys/restaurant brands international)
+
+Output to the file and console:
+
+File found!
+I understand, here is info on (item):
+(all of item) 
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: (item name that just has to be close) for (wendys/restaurant brands international)
+
+Output to the file and console:
+
+File found!
+I understand, here is info on (item):
+(all of item) 
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: (item name that just has to be close) for wendys and restaurant brands international
+
+Output to the file and console:
+
+File found! (will always default to wendys if two are included)!
+I understand, here is info on (item):
+(all of item) 
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: item (roman numeral) (wendys/restaurant brands international)
+
+Output to the file and console:
+
+I understand, here is info on (item):
+(all of item) 
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: part (roman numeral) (wendys/restaurant brands international)
+
+Output to the file and console:
+
+I understand, here is info on (part):
+(all of part) 
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: part (number) (wendys/restaurant brands international)
+
+Output to the file and console:
+
+I understand, here is info on (part + roman numeral):
+(all of part)
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: 1
+
+Output to console:
+
+Have a good day! (Biplav is the best)
+
+-----------------------------
+Input: Business properties of (wendys/restaurant brands international)
+
+output to console:
+
+what were you asking about more specifically? (enter number)
+1) Item 1. Business
+2) Item 2. Properties
+
+Input: a
+
+output to console:
+
+Not acceptable
+what were you asking about more specifically? (enter number)
+1) Item 1. Business
+2) Item 2. Properties
+
+Input: 1
+
+output to file and console:
+
+I understand, here is info on (item):
+(all of item) 
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: Business part i of (wendys/restaurant brands international)
+
+output to console:
+
+what were you asking about more specifically? (enter number)
+1) Item 1. Business
+2) part 1 properties
+
+Input: 2
+
+output to file and console:
+
+I understand, here is info on (part I):
+(prints all of part 1) 
+
+(output to console only): What do you wish to search? (enter 1 to close)
+-----------------------------
+Input: Wendys fries are good
+
+Output to the file and console:
+
+File found!
+I do not understand
+(output to console only): What do you wish to search? (enter 1 to close)
+
+-----------------------------
+Input: asdasdasd
+
+Output to console:
+
+Please enter a company name at least
+What do you wish to search? (enter 1 to close)
+
+(output to console only): What do you wish to search? (enter 1 to close)
