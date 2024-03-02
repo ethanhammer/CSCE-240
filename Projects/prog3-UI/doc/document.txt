@@ -1,0 +1,116 @@
+William Ethan Hammer
+
+-------------------------
+To run:
+
+1. download project folder
+
+2. open project folder directory in terminal. Ensure you are not in a specific folder (bin or src), just the project directory.
+
+3. type "java -cp bin progFE"
+
+
+To close:
+
+Hit the X button at the top right
+-------------------------
+Output location:
+
+	-Results are sent to both the Swing GUI and to an output file in the data subfolder.
+-------------------------
+Supported companies:
+
+	-Wendys and Restaurant Brands International (must enter words close to these for the file to be opened in inquiry).
+	
+	-If are both are included in the search, it defaults to Wendys.
+	
+Supported small-talk:
+
+	-Hello
+	-Holla
+	-how are you?
+	-are you doing good today?
+	
+Supported keywords and related sections:
+		
+		IF A SECTION IS FOUND BUT CONTAINS NO DATA NOTHING WILL BE PRINTED EXCEPT THE SECTION NAME
+		
+		? = optional $ = end of line () = section
+		
+        "part (?:1|i)(?: |$)", "Part I"
+        (?:risk factors|risk|item (?:1|i)a(?: |$))", "Item 1A. Risk Factors"
+        (?:staff comment|item (?:1|i)b(?: |$))", "Item 1B. Unresolved Staff Comments"
+        (?:busin|item (?:1|i)(?: |$))", "Item 1. Business"
+        (?:Propert(?:y|ies)|item (?:2|II)(?: |$))", "Item 2. Properties"
+        (?:legal|court|item (?:3|III)(?: |$))", "Item 3. Legal Proceedings"
+        (?:safety|mine|item (?:4|IV)(?: |$))", "Item 4. Mine Safety Disclosures"
+        "part (?:2|ii)(?: |$)", "Part II"
+        (?:registrant|equity|item (?:5|V)(?: |$))", "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities"
+        (?:reserved|item (?:6|VI)(?: |$))", "Item 6. Reserved"
+        (?:Discussion|Financial Conditions|Results of Operations|item (?:7|VII)(?: |$))", "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations"
+        (?:Market Risk|quantitative|qualitative|item (?:7|VII)A(?: |$))", "Item 7A. Quantitative and Qualitative Disclosures About Market Risk"
+        (?:Financial statements|Supplementary|Data|item (?:8|VIII)(?: |$))", "Item 8. Financial Statements and Supplementary Data"
+        (?:Changes|Disagreements with accountants|Financial Disclosure|item (?:9|IX)(?: |$))", "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure"
+        (?:controls|Procedures|item (?:9|IX)A(?: |$))", "Item 9A. Controls and Procedures"
+        (?:Other|item (?:9|IX)B(?: |$))", "Item 9B. Other Information"
+        (?:foreign jurisdictions|prevent inspections|item (?:9|IX)C(?: |$))", "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections"
+        part (?:3|iii)(?: |$)", "Part III"
+        (?:Directors|Executive officers|Corporate|Governance|item (?:10|X)(?: |$))", "Item 10. Directors, Executive Officers and Corporate Governance"
+        (?:compensation|earn|item (?:11|XI)(?: |$))", "Item 11. Executive Compensation"
+        (?:Security Ownership|beneficial owners|item (?:12|XII)(?: |$))", "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters"
+        (?:relationships|transactions|director independence|item (?:13|XIII)(?: |$))", "Item 13. Certain Relationships and Related Transactions, and Director Independence"
+        (?:principal Accounting|Services|item (?:14|XIV)(?: |$))", "Item 14. Principal Accounting Fees and Services"
+        part (?:4|IV)(?: |$)", "Part IV"},
+        (?:Exhibits|financial statement schedules|item (?:15|XV)(?: |$))", "Item 15. Exhibits and Financial Statement Schedules"
+        (?:Summary|item (?:16|XVI)(?: |$))", "Item 16. Form 10-K Summary"
+        all information(?: |$)", "all information"
+        
+-------------------------
+Write up:
+
+	The goal of this assignment was to create a functional chat feature with our given 10k's. 
+
+My companies were restaurant brands international (formerly McDonalds) and Wendys. The files from these companies are saved into the data folder of the program.
+
+The user input was judged based on how close they were to a series of keys and these keys were then searched for in the text.
+
+the corresponding section was then printed to both the GUI interface and the text document named output.txt.
+
+
+	The classes I created were called progFE, progBE, and  data. The main method begins by creating the
+	
+ GUI interface and creates an instance of the back End class.  The program then waits
+	
+for userInput, once that userInput is found, it records it and sends it to the back end to be tested. Three checks are then done. 
+
+The first checks if the user input contains any kind of small talk. If this happens the program answers and stops any kind of search. The seconds checks if the input
+
+contains a part of one of the company names. If it is found to, the file of that company's 10k is saved to the current file and the program continues.
+
+The second check compares the user input to a set of keys that the program is supposed to look for. These keys now are relatively simple and do not allow for too much freedom
+
+when talking to the bot. This will be expanded on further in future additions. If it finds a key inside the user's question, the program 
+
+continues. If these are not found, the program asks the user to clarify. In addition, the check as to if the user's request contains a key notices if more than one key
+
+is found. If this happens, the user is prompted to select between which key they meant. Once just one key is found, the key is linked to a specific section in the file
+
+and the data object is created to look for that specific section, taking in the key's request as a parameter. The request can be a single item or a whole part, or the whole text.
+
+The data object has three strategies. If the request asks for the whole text, the object simply adds each line to it's private output variable. If it is an item,
+
+the data object searches until it sees the item name in the 10k document. Once it is found, the data adds each line to the output until it finds another line with the first word being item or part, signaling the end
+
+of the previous item. If it is a part, the data object finds the part name and then adds each line to the output until it finds a line with the first word part.
+
+After this, the object is created with its output variable initialized. The back end then calls for the data object to return the output and it is printed
+
+to both the console and file via the front end. The file also required the line spaces to be reformatted. The program then repeats if a new question is asked.
+
+
+	This is the third part in the creation of a chat bot that will be able to answer questions regarding the companies and
+	
+their 10-K data. This will be expanded on in the future in order to allow for a broader range of questions and be more user-friendly/graphically appealing.
+
+
+	
