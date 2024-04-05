@@ -1,0 +1,38 @@
+Anything with - is user input
+
+----------------
+
+type command
+-summary
+There are 3 chats with user asking 3 times and the bot responding 248 times. The total duration(s) was 15
+type command
+-showchat 3
+bot= 1 userUtt= 0
+
+Time Taken: 1
+type command
+-showchat 2
+asdasd
+Please enter a company name atleast
+bot= 2 userUtt= 1
+
+Time Taken: 4
+type command
+-showchat-summary 2
+Chat 2 has user asking 1 times and system respond 2 times. Duration(s): 4
+type command
+-showchat-summary as
+Invalid input
+type command
+asdasd
+Invalid input
+type command
+-show
+Invalid input
+type command
+-showchat -1
+Not that many files
+type command
+-quit
+
+
