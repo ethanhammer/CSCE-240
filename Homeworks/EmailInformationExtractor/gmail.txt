@@ -1,0 +1,29 @@
+MIME-Version: 1.0
+Date: Tue, 16 Feb 2021 16:16:03 -0500
+Message-ID: <CAO_gP0VpcZ3y3vy4Qqmv6FDeXKd3n+7OhwHn5dmpHkaP6h97vQ@mail.gmail.com>
+Subject: Time-off
+From: Ethan Hammer <ethanhammer2217@gmail.com>
+To: Noah.White@panerabread.com
+Content-Type: multipart/alternative; boundary="000000000000423a3805bb7a9cc2"
+
+--000000000000423a3805bb7a9cc2
+Content-Type: text/plain; charset="UTF-8"
+
+Hey Noah,
+
+I put in a time-off request in the Panera website a few days ago, I just
+want to make sure I did it correctly.
+
+Thanks,
+Ethan Hammer
+
+--000000000000423a3805bb7a9cc2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Hey Noah,<div dir=3D"auto"><br></div><div dir=3D"auto">I =
+put in a time-off request in the Panera website a few days ago, I just want=
+ to make sure I did it correctly.</div><div dir=3D"auto"><br></div><div dir=
+=3D"auto">Thanks,</div><div dir=3D"auto">Ethan Hammer</div></div>
+
+--000000000000423a3805bb7a9cc2--

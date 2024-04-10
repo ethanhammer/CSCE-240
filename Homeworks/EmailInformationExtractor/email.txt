@@ -1,0 +1,126 @@
+Received: from IA0PR19MB7656.namprd19.prod.outlook.com (2603:10b6:208:40a::13)
+ by SJ0PR19MB5349.namprd19.prod.outlook.com with HTTPS; Tue, 12 Mar 2024
+ 14:31:30 +0000
+Received: from BN9PR03CA0138.namprd03.prod.outlook.com (2603:10b6:408:fe::23)
+ by IA0PR19MB7656.namprd19.prod.outlook.com (2603:10b6:208:40a::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7362.36; Tue, 12 Mar
+ 2024 14:31:28 +0000
+Received: from BN30PEPF0000B374.namprd21.prod.outlook.com
+ (2603:10b6:408:fe:cafe::eb) by BN9PR03CA0138.outlook.office365.com
+ (2603:10b6:408:fe::23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7386.18 via Frontend
+ Transport; Tue, 12 Mar 224 14:31:28 +0000
+Authentication-Results: spf=pass (sender IP is 149.72.165.96)
+ smtp.mailfrom=send.piazza.com; dkim=pass (signature was verified)
+ header.d=piazza.com;dmarc=pass action=none
+ header.from=piazza.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of send.piazza.com
+ designates 149.72.165.96 as permitted sender)
+ receiver=protection.outlook.com; client-ip=149.72.165.96;
+ helo=wrqvxrsh.outbound-mail.sendgrid.net; pr=C
+Received: from wrqvxrsh.outbound-mail.sendgrid.net (149.72.165.96) by
+ BN3PEPF0000B374.mail.protection.outlook.com (10.167.243.171) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.7409.0
+ via Frontend Transport; Tue, 12 Mar 2024 14:31:26 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=piazza.com;
+	h=from:in-reply-to:references:subject:mime-version:to:content-type:cc:
+	content-type:from:subject:to;
+	s=s1; bh=BnnbWEsGBEYC0MenF9ZCo9hB+uy4L+hkyj/fgz1NfHY=;
+	b=N6XiyhhqMnW272t1waKVEY+vwabn9Em++0sKefw2L7HohNbaoNLFAvEE+/lp+XjjURCf
+	uW7Onudp8GDGv/gTdgN6CV6fQm0/Pcg1dKFILn6J4HRwQSSgheKRfU6nBhBtV69sNzd87u
+	pKGCmzY7ESg9I9gpS4xIJu0M4bZcrWAMVYY3asU7fHnCv7h99/17+0MYjbKxWBfKyRR9DC
+	3KOGm7gKLPeVONs+Zwo0XjqDlDtdr1dgpo7HUW+KbbHFpEZWk9Q+lT0xk0qa0LxT06j46y
+	Ueetx4ow2D1zEwj3Z7pA0YNGDwk7U8upLowhBwO+PkRtARXlETSrZ6FFnZ7tf14w==
+Received: by filterdrecv-748c4b5d-mw97f with SMTP id filterdrecv-748c4b5d-mw97f-1-65F0673D-B
+        2024-03-12 14:31:25.112821708 +0000 UTC m=+660884.454905449
+Received: from 44nstxgkun.smtp.sendgrid.net (unknown)
+	by geopod-ismtpd-24 (SG) with ESMTP id JxTrgKo-RSac4Tj38AFYzQ
+	for <whammer@email.sc.edu>; Tue, 12 Mar 2024 14:31:24.961 +0000 (UTC)
+Date: Tue, 12 Mar 2024 14:31:25 +0000 (UTC)
+From: CSCE 212 on Piazza <no-reply@piazza.com>
+Message-ID: <ltoh06xe132fu@piazza.com>
+In-Reply-To: <ltoh06xe132fu@piazza.com>
+References: <ltoh06xe132fu@piazza.com>
+Subject: When will grades be posted from the midterm
+MIME-Version: 1.0
+X-SG-EID:
+ =?us-ascii?Q?u001=2EbFQpM6zwISDQHtpzaTdOosBuFGy2ZUZs3EwGzRb9+urVc3St3hSvYno+o?=
+ =?us-ascii?Q?xFTADGOiUvYzEmyZWRzp+qjI2CUN6yQSLGPzIEv?=
+ =?us-ascii?Q?7i62p6mbuSQ7LKJ4wxR+SRB=2Fa8Jrx25ZZeOqfk6?=
+ =?us-ascii?Q?L5bxhIYM+Q7khfdwnmCphfRAkuexvLvHOCpHSk3?=
+ =?us-ascii?Q?DZnqXTia9C8XCSxhBRV5+vKR90I8hb27=2FA6OprB?=
+ =?us-ascii?Q?rW8ZhWxW1HocrXTQxWd2qJajtX4NbKvdhRR2rgS?= =?us-ascii?Q?bh2q?=
+To: whammer@email.sc.edu
+X-Entity-ID: u001.cxjBOPjVn+GTaKVSPXZlAw==
+Content-Type: multipart/related; 
+	boundary="----=_Part_7785_639965542.1710253884938"
+Return-Path: bounces+5126-b08f-whammer=email.sc.edu@send.piazza.com
+X-MS-Exchange-Organization-ExpirationStartTime: 12 Mar 2024 14:31:27.8250
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ df0a5f1c-bbf0-4811-ed81-08dc42a11a4d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 4b2a4b19-d135-420e-8bb2-b1cd238998cc:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ BN3PEPF0000B374:EE_|IA0PR19MB7656:EE_|SJ0PR19MB5349:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN3PEPF0000B374.namprd21.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: df0a5f1c-bbf0-4811-ed81-08dc42a11a4d
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;
+X-Forefront-Antispam-Report:
+ CIP:149.72.165.96;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:wrqvxrsh.outbound-mail.sendgrid.net;PTR:wrqvxrsh.outbound-mail.sendgrid.net;CAT:NONE;SFS:(13230031);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Mar 2024 14:31:26.9187
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: df0a5f1c-bbf0-4811-ed81-08dc42a11a4d
+X-MS-Exchange-CrossTenant-Id: 4b2a4b19-d135-420e-8bb2-b1cd238998cc
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN3PEPF0000B374.namprd21.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: IA0PR19MB7656
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.0445629
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7362.031
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?ihPkSlZOHnYJmO58iIgkctSPS0TQCFPgZD0DyxgUrw9y9PD/issL6fSz0VFW?=
+ =?us-ascii?Q?K6HIK6IzFY+Gx9t9f2jHdSkZrEwt6R8NSBAXeM6taWtJCeFTQ2ZQ+YLBX5U+?=
+ =?us-ascii?Q?BPmASkGjCSMPNsCqrVG3cycjjiHiIERmi4gtONEUcMdMwsO+ChBFn4tiGbKi?=
+ =?us-ascii?Q?M2hzR95gqGDqY4/SOguz0z6+Ia3CfFyqcbfCvc3HTs/ytfEPcRcVvJ17TB5N?=
+ =?us-ascii?Q?AsqSpK9AWp7FdAu238fjoCiGRuDDn5gMoC4KRAPXSw808zaBe39TSW2RIPGQ?=
+ =?us-ascii?Q?O19WI177UopZVzrmhvVc12pebM2HzykRrFZPkdb58nq0QAUcBTznEvdBJSiZ?=
+ =?us-ascii?Q?WTuGs2XV2uJoJkMsjIRn7F2C2uaNoJsO9/0KlpDbu4hNfAFlnVMCa1GrnR7Q?=
+ =?us-ascii?Q?DsMWLRRzcA61Ugi6zlkDnX0XnO8ivXn7QDn1U1Kp4atUi7TzIpQDz+jO0RRv?=
+ =?us-ascii?Q?0zhqcFUZOHBLOsZDSU+tkf8rIncQNi7bMQC/QLT++5z+fPauv8PhbmuaLT7u?=
+ =?us-ascii?Q?CZaSnbI+D7veGEwT70aG7MnMd6TyxEDe0QUnfhR7j2/EZlTlm89AzWy+3Mo6?=
+ =?us-ascii?Q?9H5b5gS9oW9GpJih8QrrF/STGM+eSn37L2uGN8jFwiGU1uz90zgQ4Z8xRDg9?=
+ =?us-ascii?Q?1C2m0Gl5kD7Qc6sTVqhEqbEDgB75U+apfwCmLsGLMvR7LyYnyvRlhXJVJqYv?=
+ =?us-ascii?Q?qStA+WeSdg7CiqnwZ0aTqhLiXewFX5Aj0A8OEt5ghVfmEnNT3tjQCrOzXIq5?=
+ =?us-ascii?Q?T7CJgYhBAxYT29OzNuYjG4dgzNgRqcLxDnrGF/m21yfaLXLZ0Q4b4ZZxHbel?=
+ =?us-ascii?Q?4N3LvzJujBZ1gXwnMdmsJCkUfCLza8wa274EAamIii4Y3ATjZN/PjkNiAyzY?=
+ =?us-ascii?Q?00oZnYqf3cDTApcjSAypH5nJRFOrKKNx0WyV4gVHShrPr3yIdmuT3J8yFIde?=
+ =?us-ascii?Q?zGxMXpSAViMw2ILL/xHOPQjGmRKefpxW8TpmP/JfwO3fwVSYApUtm5vDTsMG?=
+ =?us-ascii?Q?bdVybE+BIdumnWsgpa3dzdiyKzanI+5p4w6RY3NtyjPYefGBLIh/0G5+997E?=
+ =?us-ascii?Q?6R1rsHhMzw9+094KweyAVfxXIHw1iv2wVsoQCzy5f7VftMlkNmewHdjyWBB5?=
+ =?us-ascii?Q?AICHptkyNzVYeoTkasEF0QKiTAAkG3r/2Hc6/cDAycJAPewhRiV5EPV5RWyh?=
+ =?us-ascii?Q?XjiCLsKjq1K0JLr9/16WZn4ooZ+Icbz7DlQYvT5vxhfYKH5eblwcC3qL/Irg?=
+ =?us-ascii?Q?Q2Q25L/cDLphJchJQn9MRCdRjdzXNhZuEIm95oiGNw+9gr5ttf28mbO3trBl?=
+ =?us-ascii?Q?UorlQj1aH4C5FcTS5hlZKMwP0rs/XojgumKS7gOpnEAaH1pobjYmbIoUT0XW?=
+ =?us-ascii?Q?a/y/izlEolaY6Dl4BJ5Sc6xucC63Y8EQO3xGHwDQ7mn/dsQnjNqSUHRIJIXU?=
+ =?us-ascii?Q?6/Pt1sJH1STZJQWdF4ZtHVT6ZUfpBphVi8JsfHuvgPUl/PN6bwuGsSs231tZ?=
+ =?us-ascii?Q?HL0Fo4iOAfeSN/MRLS9pQ+opHC0yZBt5L8ucy129EXKUfAAEFdkXk8KXt4/l?=
+ =?us-ascii?Q?73coGv8mJeGy3172gqy3rRgTFBXM5Cp47fFGS/SWjOg51bKueh3I3WDE5can?=
+ =?us-ascii?Q?xgFBcj2ryHp3SLG73HRV5wuVPzlJV+IDB9cUNnmi9JrO6/9E5mqfuRrRPbOM?=
+ =?us-ascii?Q?14VmftxjCCbu+wbjTCsjmmHITGRigqM3qNi7PZihV/BwsAHJIAAxd6ObKac2?=
+ =?us-ascii?Q?V5gRJrxzWrrebd7H435O3t31QzRrqeVTi8k6LLx66NMiW/H6hBFpWslbBiWn?=
+ =?us-ascii?Q?YNp92HNipBUl3l8Hzrp/B+NJoe+zlR1Jgc5sE1Qk89uXdBdezYSxU2bhlR/9?=
+ =?us-ascii?Q?jHv30TnhwSkyVHOu96ViZBVfmAc2BQls52aWMs3W079/NuMwsCW2+xpJR6Hk?=
