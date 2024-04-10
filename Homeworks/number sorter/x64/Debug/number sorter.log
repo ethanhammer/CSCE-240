@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\ethan\source\repos\number sorter\Source.cpp(54,23): warning C4244: 'return': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\ethan\source\repos\number sorter\Source.cpp(109,23): warning C4244: 'return': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  number sorter.vcxproj -> C:\Users\ethan\source\repos\number sorter\x64\Debug\number sorter.exe
